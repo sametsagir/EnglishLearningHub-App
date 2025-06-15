@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-language"></i>
+            <span>English Learning Hub</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#practice">Practice</a>
+            <a href="#vocabulary">Vocabulary</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Master English with Confidence</h1>
+                <p>Interactive lessons, real-time practice, and personalized learning experience</p>
+                <button class="cta-button">Start Learning</button>
+            </div>
+        </section>
+
+        <section id="lessons" class="lessons-section">
+            <h2>Popular Lessons</h2>
+            <div class="lesson-cards">
+                <div class="lesson-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Daily Conversations</h3>
+                    <p>Learn common phrases and expressions</p>
+                    <button class="start-lesson">Start Lesson</button>
+                </div>
+                <div class="lesson-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Grammar Basics</h3>
+                    <p>Master essential grammar rules</p>
+                    <button class="start-lesson">Start Lesson</button>
+                </div>
+                <div class="lesson-card">
+                    <i class="fas fa-microphone"></i>
+                    <h3>Pronunciation</h3>
+                    <p>Improve your speaking skills</p>
+                    <button class="start-lesson">Start Lesson</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="practice" class="practice-section">
+            <h2>Practice Your Skills</h2>
+            <div class="practice-container">
+                <div class="word-of-the-day">
+                    <h3>Random Word</h3>
+                    <div id="word-display">
+                        <p class="loading">Loading word...</p>
+                    </div>
+                </div>
+                <div class="saved-words">
+                    <h3>Saved Words</h3>
+                    <div id="saved-words">
+                        <p class="loading">Loading saved words...</p>
+                    </div>
+                </div>
+                <div class="quiz-container">
+                    <h3>Quick Quiz</h3>
+                    <div id="quiz">
+                        <p class="question">Loading question...</p>
+                        <div class="options"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vocabulary" class="vocabulary-section">
+            <h2>Vocabulary Builder</h2>
+            <div class="vocabulary-container">
+                <div class="search-box">
+                    <input type="text" id="word-search" placeholder="Search for a word...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+                <div id="word-details" class="word-details">
+                    <h3>Search for a word to see its details</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>We're dedicated to making English learning accessible and enjoyable for everyone.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#lessons">Lessons</a>
+                <a href="#practice">Practice</a>
+                <a href="#vocabulary">Vocabulary</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 English Learning Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
