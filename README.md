@@ -22,14 +22,11 @@
 2. `index.html` dosyasını bir tarayıcıda açın.
 3. Ana sayfadan başlayarak dersleri keşfedebilir, pratik yapabilir ve kelime arayabilirsiniz.
 
-## Tasarım
 
-Yukarıda, uygulamanın ana sayfa ve modül görsellerini bulabilirsiniz. Tasarımlar sade, modern ve öğrenmeyi teşvik edecek şekilde hazırlanmıştır.
 
 ## Katkı ve Geri Bildirim
 
-Her türlü katkı ve geri bildirim için lütfen iletişime geçin.
+Katkı ve öneriler için: sametsagir6969@gmail.com
 
 ---
 
-© 2024 English Learning Hub 
